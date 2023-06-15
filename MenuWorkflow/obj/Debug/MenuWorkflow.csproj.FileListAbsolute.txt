@@ -17,3 +17,21 @@ C:\Users\estagiario1\source\repos\MenuWorkflow\MenuWorkflow\obj\Debug\MenuWorkfl
 C:\Users\estagiario1\source\repos\MenuWorkflow\MenuWorkflow\bin\Debug\Movtech-WorkFlow.exe
 C:\Users\estagiario1\source\repos\MenuWorkflow\MenuWorkflow\bin\Debug\Movtech-WorkFlow.pdb
 C:\Users\estagiario1\source\repos\MenuWorkflow\MenuWorkflow\bin\Debug\Movtech-WorkFlow.exe.config
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\MenuWorkflow.exe.config
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\MenuWorkflow.exe
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\MenuWorkflow.pdb
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-WorkFlow.pdb
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-WorkFlow.exe.config
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-Workflow-Pedidos.pdb
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-Workflow-Pedidos.exe.config
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.csproj.AssemblyReference.cache
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.csproj.SuggestedBindingRedirects.cache
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.FormLoginWorkflow.resources
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.FormMenuWorkflow.resources
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.Properties.Resources.resources
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.csproj.GenerateResource.cache
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.csproj.CoreCompileInputs.cache
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.csproj.CopyComplete
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.exe
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.pdb
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-Workflow-Pedidos.exe

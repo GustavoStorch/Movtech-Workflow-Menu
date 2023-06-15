@@ -88,6 +88,7 @@
             // 
             // btnEntrar
             // 
+            this.btnEntrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnEntrar.ForeColor = System.Drawing.Color.Black;
             this.btnEntrar.Location = new System.Drawing.Point(310, 161);
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -100,6 +101,7 @@
             // 
             // FormLoginWorkflow
             // 
+            this.AcceptButton = this.btnEntrar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(514, 221);
