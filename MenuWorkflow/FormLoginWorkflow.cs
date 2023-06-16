@@ -14,6 +14,8 @@ namespace MenuWorkflow
 {
     public partial class FormLoginWorkflow : System.Windows.Forms.Form
     {
+        public string nomeUsuario { get; set; }
+
         public FormLoginWorkflow()
         {
             InitializeComponent();
@@ -26,12 +28,13 @@ namespace MenuWorkflow
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+            nomeUsuario = txtNomeUsuário.Text;
             try
             {
                 using (SqlConnection connection = DaoConnection.GetConexao())
                 {
                     LoginDAO dao = new LoginDAO(connection);
-                    FormMenuWorkflow formMenuWorkflow = new FormMenuWorkflow();
+                    FormMenuWorkflow formMenuWorkflow = new FormMenuWorkflow(nomeUsuario);
 
                     bool verifica = dao.VerificaLogin(new LoginModel()
                     {

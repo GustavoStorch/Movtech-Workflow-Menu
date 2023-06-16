@@ -12,9 +12,12 @@ namespace MenuWorkflow
 {
     public partial class FormMenuWorkflow : Form
     {
-        public FormMenuWorkflow()
+        public string nomeUsuario { get; set; }
+
+        public FormMenuWorkflow(String NomeUsuario)
         {
             InitializeComponent();
+            nomeUsuario = NomeUsuario;
         }
 
         private void cadastroEtapaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -25,7 +28,7 @@ namespace MenuWorkflow
 
         private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Movtech_Workflow_Pedidos.FormWorkflowPedidos formWorkflowPedidos = new Movtech_Workflow_Pedidos.FormWorkflowPedidos();
+            Movtech_Workflow_Pedidos.FormWorkflowPedidos formWorkflowPedidos = new Movtech_Workflow_Pedidos.FormWorkflowPedidos(nomeUsuario);
             formWorkflowPedidos.ShowDialog();
         }
     }
