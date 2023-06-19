@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Movtech-WorkFlow">
-      <HintPath>..\..\..\..\Documents\Movtech\Projeto 2\Movtech-Workflow-CadastroEtapas\Movtech-WorkFlow\bin\Debug\Movtech-WorkFlow.exe</HintPath>
+    <Reference Include="Movtech-WorkFlow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Movtech-Workflow-CadastroEtapas\Movtech-WorkFlow\bin\Debug\Movtech-WorkFlow.exe</HintPath>
     </Reference>
     <Reference Include="Movtech-Workflow-Pedidos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

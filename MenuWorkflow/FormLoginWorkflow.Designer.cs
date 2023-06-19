@@ -117,6 +117,7 @@
             this.Name = "FormLoginWorkflow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormLoginWorkflow_FormClosing);
             this.Load += new System.EventHandler(this.FormLoginWorkflow_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

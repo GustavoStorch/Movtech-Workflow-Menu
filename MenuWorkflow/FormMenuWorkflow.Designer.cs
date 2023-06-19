@@ -89,6 +89,7 @@
             this.Name = "FormMenuWorkflow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Workflow Movtech";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMenuWorkflow_FormClosing);
             this.menuWorkflow.ResumeLayout(false);
             this.menuWorkflow.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMenuWork)).EndInit();

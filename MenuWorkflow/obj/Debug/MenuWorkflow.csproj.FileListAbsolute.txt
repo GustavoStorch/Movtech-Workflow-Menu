@@ -35,3 +35,4 @@ C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkf
 C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.exe
 C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\obj\Debug\MenuWorkflow.pdb
 C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-Workflow-Pedidos.exe
+C:\Users\estagiario1\Documents\Movtech\Projeto 2\Movtech-Workflow-Menu\MenuWorkflow\bin\Debug\Movtech-WorkFlow.exe
