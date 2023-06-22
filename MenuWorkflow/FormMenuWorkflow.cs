@@ -15,6 +15,8 @@ namespace MenuWorkflow
     {
         public string nomeUsuario { get; set; }
 
+        public DateTime dataSimulacao { get; set; }
+
         public FormMenuWorkflow(String NomeUsuario)
         {
             InitializeComponent();
@@ -29,7 +31,7 @@ namespace MenuWorkflow
 
         private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Movtech_Workflow_Pedidos.FormWorkflowPedidos formWorkflowPedidos = new Movtech_Workflow_Pedidos.FormWorkflowPedidos(nomeUsuario);
+            Movtech_Workflow_Pedidos.FormWorkflowPedidos formWorkflowPedidos = new Movtech_Workflow_Pedidos.FormWorkflowPedidos(nomeUsuario, dataSimulacao);
             formWorkflowPedidos.ShowDialog();
         }
 
@@ -44,6 +46,11 @@ namespace MenuWorkflow
                     e.Cancel = true;
                 }
             }
+        }
+
+        private void dtpDataSimulacao_ValueChanged(object sender, EventArgs e)
+        {
+            dataSimulacao = Convert.ToDateTime(dtpDataSimulacao.Value);
         }
     }
 }

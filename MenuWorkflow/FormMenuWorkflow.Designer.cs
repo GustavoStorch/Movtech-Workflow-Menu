@@ -33,6 +33,8 @@
             this.cadastroEtapaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imgMenuWork = new System.Windows.Forms.PictureBox();
+            this.lblDataSimulacao = new System.Windows.Forms.Label();
+            this.dtpDataSimulacao = new System.Windows.Forms.DateTimePicker();
             this.menuWorkflow.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMenuWork)).BeginInit();
             this.SuspendLayout();
@@ -70,18 +72,40 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMenuWork.Image = global::MenuWorkflow.Properties.Resources.movtech2;
-            this.imgMenuWork.Location = new System.Drawing.Point(41, 50);
+            this.imgMenuWork.Location = new System.Drawing.Point(69, 94);
             this.imgMenuWork.Name = "imgMenuWork";
-            this.imgMenuWork.Size = new System.Drawing.Size(607, 327);
+            this.imgMenuWork.Size = new System.Drawing.Size(551, 286);
             this.imgMenuWork.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgMenuWork.TabIndex = 2;
             this.imgMenuWork.TabStop = false;
+            // 
+            // lblDataSimulacao
+            // 
+            this.lblDataSimulacao.AutoSize = true;
+            this.lblDataSimulacao.Location = new System.Drawing.Point(12, 49);
+            this.lblDataSimulacao.Name = "lblDataSimulacao";
+            this.lblDataSimulacao.Size = new System.Drawing.Size(138, 20);
+            this.lblDataSimulacao.TabIndex = 3;
+            this.lblDataSimulacao.Text = "Data para simular:";
+            // 
+            // dtpDataSimulacao
+            // 
+            this.dtpDataSimulacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDataSimulacao.Location = new System.Drawing.Point(156, 44);
+            this.dtpDataSimulacao.MinDate = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
+            this.dtpDataSimulacao.Name = "dtpDataSimulacao";
+            this.dtpDataSimulacao.Size = new System.Drawing.Size(139, 26);
+            this.dtpDataSimulacao.TabIndex = 4;
+            this.dtpDataSimulacao.Value = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
+            this.dtpDataSimulacao.ValueChanged += new System.EventHandler(this.dtpDataSimulacao_ValueChanged);
             // 
             // FormMenuWorkflow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(691, 416);
+            this.Controls.Add(this.dtpDataSimulacao);
+            this.Controls.Add(this.lblDataSimulacao);
             this.Controls.Add(this.imgMenuWork);
             this.Controls.Add(this.menuWorkflow);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -104,5 +128,7 @@
         private System.Windows.Forms.ToolStripMenuItem cadastroEtapaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.PictureBox imgMenuWork;
+        private System.Windows.Forms.Label lblDataSimulacao;
+        private System.Windows.Forms.DateTimePicker dtpDataSimulacao;
     }
 }
