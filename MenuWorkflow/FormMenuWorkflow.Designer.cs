@@ -72,7 +72,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMenuWork.Image = global::MenuWorkflow.Properties.Resources.movtech2;
-            this.imgMenuWork.Location = new System.Drawing.Point(69, 94);
+            this.imgMenuWork.Location = new System.Drawing.Point(67, 62);
             this.imgMenuWork.Name = "imgMenuWork";
             this.imgMenuWork.Size = new System.Drawing.Size(551, 286);
             this.imgMenuWork.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,7 +82,7 @@
             // lblDataSimulacao
             // 
             this.lblDataSimulacao.AutoSize = true;
-            this.lblDataSimulacao.Location = new System.Drawing.Point(12, 49);
+            this.lblDataSimulacao.Location = new System.Drawing.Point(12, 377);
             this.lblDataSimulacao.Name = "lblDataSimulacao";
             this.lblDataSimulacao.Size = new System.Drawing.Size(138, 20);
             this.lblDataSimulacao.TabIndex = 3;
@@ -91,7 +91,7 @@
             // dtpDataSimulacao
             // 
             this.dtpDataSimulacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDataSimulacao.Location = new System.Drawing.Point(156, 44);
+            this.dtpDataSimulacao.Location = new System.Drawing.Point(156, 372);
             this.dtpDataSimulacao.MinDate = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
             this.dtpDataSimulacao.Name = "dtpDataSimulacao";
             this.dtpDataSimulacao.Size = new System.Drawing.Size(139, 26);
