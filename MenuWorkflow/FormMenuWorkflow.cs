@@ -51,6 +51,12 @@ namespace MenuWorkflow
         private void dtpDataSimulacao_ValueChanged(object sender, EventArgs e)
         {
             dataSimulacao = Convert.ToDateTime(dtpDataSimulacao.Value);
+            dtpDataSimulacao.MinDate = dataSimulacao;
+        }
+
+        private void FormMenuWorkflow_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
