@@ -48,21 +48,21 @@
             this.pedidosToolStripMenuItem});
             this.menuWorkflow.Location = new System.Drawing.Point(0, 0);
             this.menuWorkflow.Name = "menuWorkflow";
-            this.menuWorkflow.Size = new System.Drawing.Size(691, 33);
+            this.menuWorkflow.Size = new System.Drawing.Size(691, 36);
             this.menuWorkflow.TabIndex = 0;
             this.menuWorkflow.Text = "menuStrip1";
             // 
             // cadastroEtapaToolStripMenuItem
             // 
             this.cadastroEtapaToolStripMenuItem.Name = "cadastroEtapaToolStripMenuItem";
-            this.cadastroEtapaToolStripMenuItem.Size = new System.Drawing.Size(148, 29);
+            this.cadastroEtapaToolStripMenuItem.Size = new System.Drawing.Size(148, 32);
             this.cadastroEtapaToolStripMenuItem.Text = "Cadastro Etapa";
             this.cadastroEtapaToolStripMenuItem.Click += new System.EventHandler(this.cadastroEtapaToolStripMenuItem_Click);
             // 
             // pedidosToolStripMenuItem
             // 
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(91, 29);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(91, 32);
             this.pedidosToolStripMenuItem.Text = "Pedidos";
             this.pedidosToolStripMenuItem.Click += new System.EventHandler(this.pedidosToolStripMenuItem_Click);
             // 
@@ -81,6 +81,7 @@
             // 
             // lblDataSimulacao
             // 
+            this.lblDataSimulacao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDataSimulacao.AutoSize = true;
             this.lblDataSimulacao.Location = new System.Drawing.Point(12, 377);
             this.lblDataSimulacao.Name = "lblDataSimulacao";
@@ -90,6 +91,7 @@
             // 
             // dtpDataSimulacao
             // 
+            this.dtpDataSimulacao.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.dtpDataSimulacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpDataSimulacao.Location = new System.Drawing.Point(156, 372);
             this.dtpDataSimulacao.MinDate = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
