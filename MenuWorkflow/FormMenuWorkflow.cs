@@ -56,7 +56,7 @@ namespace MenuWorkflow
 
         private void FormMenuWorkflow_Load(object sender, EventArgs e)
         {
-
+            dataSimulacao = Convert.ToDateTime(dtpDataSimulacao.Value);
         }
     }
 }
